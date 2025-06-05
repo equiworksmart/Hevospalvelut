@@ -51,12 +51,12 @@
                 >
               </li>
               <li>
-                <a class="dropdown-item" onclick="showMe()" href="#"
+                <a class="dropdown-item" onclick="showMe()" href="#first_topic"
                   >Ensimmäinen otsikko</a
                 >
               </li>
               <li>
-                <a class="dropdown-item" onclick="showMe()" href="#"
+                <a class="dropdown-item" onclick="showMe()" href="#second_topic"
                   >Toinen otsikko</a
                 >
               </li>
@@ -89,18 +89,13 @@
                   >Hinnasto</a
                 >
               </li>
-              <li>
-                <a class="dropdown-item" onclick="showServices()" href="#"
-                  >Mahdollinen otsikko</a
-                >
-              </li>
             </ul>
           </div>
         </li>
         <li>
           <div class="dropdown" onclick="showContact()">
             <a
-              class="btn btn-secondary dropdown-toggle"
+              class="btn btn-secondary"
               href="#third"
               role="button"
               data-bs-toggle="dropdown"
@@ -120,20 +115,24 @@
         <div id="main_header">
           <div>
             <img
-              src="https://media.licdn.com/dms/image/v2/D4D22AQGsXPoqgguagw/feedshare-shrink_800/feedshare-shrink_800/0/1719559003442?e=1752105600&v=beta&t=Cv1EmMgmqjft1L5gzDy2g0WdHKe0ACEtWcW5qi7J68M"
+              id="summary_img"
+              src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/439426292_10232243621616149_8843653742633988378_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bQuJlxwDXAoQ7kNvwFCSoYK&_nc_oc=AdnEiF0g1vNXGtz_afCbJMgnvlSjoJen6OJAdJbpCvNA4OYh3FYUC92CTG9clA9l1BA&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=e4rGwTRl1LV2ZnvT79L_lQ&oh=00_AfOT2GEAVYjmTjsQdp7omnthHzHIkKfbNNmzDH3RzB9Hng&oe=6847D13A"
               alt="Description"
             />
           </div>
-          <div class="display_block">
+          <div id="summary_text">
             <h6>Lyhyesti</h6>
             <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p id="first_topic">
+              - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
             <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div>
+          <h3>Ensimmäinen otsikko</h3>
           <p class="main_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
             consectetur molestiae esse totam libero qui corporis veniam,
@@ -157,13 +156,14 @@
             dolore quibusdam?
           </p>
         </div>
-        <div class="centered_img">
+        <div id="second_topic" class="centered_img">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Italian_farrier_2006_1.jpg/500px-Italian_farrier_2006_1.jpg"
+            src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/376523446_10230897019591940_470817710102746787_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=W4txzp6mnh4Q7kNvwHYBG68&_nc_oc=AdluOro6mIz_x9CC_6efL845KawZydibBufBmeUiGT1s8T_fugaOy6nyc1UTa67Hmlo&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=4U7dVSY8_xmflcIifvuQfA&oh=00_AfOqnDaSR0tKf1nOoUPejcMtXLCDoahjOhnzeRR2XUErug&oe=6847DFB8"
             alt="Description"
           />
         </div>
         <div>
+          <h3>Toinen otsikko</h3>
           <p class="main_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
             consectetur molestiae esse totam libero qui corporis veniam,
