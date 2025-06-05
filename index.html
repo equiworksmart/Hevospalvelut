@@ -33,7 +33,7 @@
     <nav>
       <ul>
         <li>
-          <div class="dropdown" style="padding: 9px 0">
+          <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
               href="#"
@@ -45,14 +45,26 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" onclick="showMe()" href="#short">Lyhyesti</a></li>
-              <li><a class="dropdown-item" onclick="showMe()" href="#">Another action</a></li>
-              <li><a class="dropdown-item" onclick="showMe()" href="#">Something else here</a></li>
+              <li>
+                <a class="dropdown-item" onclick="showMe()" href="#first"
+                  >Lyhyesti</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" onclick="showMe()" href="#"
+                  >Ensimmäinen otsikko</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" onclick="showMe()" href="#"
+                  >Toinen otsikko</a
+                >
+              </li>
             </ul>
           </div>
         </li>
         <li>
-            <div class="dropdown" style="padding: 9px 0">
+          <div class="dropdown">
             <a
               class="btn btn-secondary dropdown-toggle"
               href="#"
@@ -64,21 +76,35 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" onclick="showServices()" href="#">Action</a></li>
-              <li><a class="dropdown-item" onclick="showServices()" href="#">Another action</a></li>
-              <li><a class="dropdown-item" onclick="showServices()" href="#">Something else here</a></li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  onclick="showServices()"
+                  href="#services"
+                  >Palvelut</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" onclick="showServices()" href="#prices"
+                  >Hinnasto</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" onclick="showServices()" href="#"
+                  >Mahdollinen otsikko</a
+                >
+              </li>
             </ul>
           </div>
         </li>
         <li>
-            <div class="dropdown" style="padding: 9px 0">
+          <div class="dropdown" onclick="showContact()">
             <a
               class="btn btn-secondary dropdown-toggle"
-              href="#"
+              href="#third"
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-              onclick="showContact()"
             >
               Yhteystiedot
             </a>
@@ -89,301 +115,156 @@
 
     <main id="short">
       <div id="first" class="me">
-          <h2>Minusta</h2>
-          <div
-            style="
-              margin-bottom: 25px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              gap: 20px;
-            "
-          >
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-              <img
-                src="https://media.licdn.com/dms/image/v2/D4D22AQGsXPoqgguagw/feedshare-shrink_800/feedshare-shrink_800/0/1719559003442?e=1752105600&v=beta&t=Cv1EmMgmqjft1L5gzDy2g0WdHKe0ACEtWcW5qi7J68M"
-                alt="Description"
-                style="max-width: 200px; height: auto; border-radius: 8px"
-              />
-              <div style="display: flex; flex-direction: column">
-                <h6>Lyhyesti</h6>
-                <p>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
-          </div>
-          <div style="display: flex; flex-direction: row; justify-content: center">
+        <h2>Minusta</h2>
+
+        <div id="main_header">
+          <div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Italian_farrier_2006_1.jpg/500px-Italian_farrier_2006_1.jpg"
+              src="https://media.licdn.com/dms/image/v2/D4D22AQGsXPoqgguagw/feedshare-shrink_800/feedshare-shrink_800/0/1719559003442?e=1752105600&v=beta&t=Cv1EmMgmqjft1L5gzDy2g0WdHKe0ACEtWcW5qi7J68M"
               alt="Description"
-              style="max-width: 200px; height: auto; border-radius: 8px"
             />
-            </div>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
           </div>
+          <div class="display_block">
+            <h6>Lyhyesti</h6>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div>
+          <p class="main_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            consectetur molestiae esse totam libero qui corporis veniam,
+            laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
+            sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
+            harum voluptatem sint nemo neque culpa nostrum aspernatur vel
+            similique atque corrupti, sequi hic explicabo debitis, ullam
+            consequatur a ex dignissimos rerum. Culpa provident deleniti
+            mollitia ex exercitationem iure sed adipisci veritatis natus,
+            molestiae odit, eaque nulla at enim. Enim et omnis unde deserunt.
+            Consectetur nam maiores cum at deserunt ex est expedita. Odit
+            voluptatem possimus consequatur in porro vel dignissimos labore
+            asperiores magni laboriosam libero non, officiis odio quas
+            blanditiis aut officia soluta, illum reprehenderit commodi! Minima
+            saepe quo repellat quod repellendus dolores consectetur ab
+            repudiandae eveniet in voluptatum alias laudantium aperiam suscipit,
+            ipsum corporis maiores velit excepturi provident a eos nihil eaque
+            eius laborum! Dolorum libero vero blanditiis ea. Ad, temporibus
+            soluta. Ex eaque consectetur alias saepe? Dolorem esse mollitia
+            ullam. Magni omnis adipisci, sapiente asperiores nostrum magnam
+            dolore quibusdam?
+          </p>
+        </div>
+        <div class="centered_img">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Italian_farrier_2006_1.jpg/500px-Italian_farrier_2006_1.jpg"
+            alt="Description"
+          />
+        </div>
+        <div>
+          <p class="main_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            consectetur molestiae esse totam libero qui corporis veniam,
+            laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
+            sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
+            harum voluptatem sint nemo neque culpa nostrum aspernatur vel
+            similique atque corrupti, sequi hic explicabo debitis, ullam
+            consequatur a ex dignissimos rerum. Culpa provident deleniti
+            mollitia ex exercitationem iure sed adipisci veritatis natus,
+            molestiae odit, eaque nulla at enim. Enim et omnis unde deserunt.
+            Consectetur nam maiores cum at deserunt ex est expedita. Odit
+            voluptatem possimus consequatur in porro vel dignissimos labore
+            asperiores magni laboriosam libero non, officiis odio quas
+            blanditiis aut officia soluta, illum reprehenderit commodi! Minima
+            saepe quo repellat quod repellendus dolores consectetur ab
+            repudiandae eveniet in voluptatum alias laudantium aperiam suscipit,
+            ipsum corporis maiores velit excepturi provident a eos nihil eaque
+            eius laborum! Dolorum libero vero blanditiis ea. Ad, temporibus
+            soluta. Ex eaque consectetur alias saepe? Dolorem esse mollitia
+            ullam. Magni omnis adipisci, sapiente asperiores nostrum magnam
+            dolore quibusdam?
+          </p>
+        </div>
       </div>
       <div id="second" class="hidden">
-        <h2>Palvelut</h2>
-          <div
-            style="
-              margin-bottom: 25px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              gap: 20px;
-            "
-          >
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-              <img
-                src="https://media.licdn.com/dms/image/v2/D4D22AQGsXPoqgguagw/feedshare-shrink_800/feedshare-shrink_800/0/1719559003442?e=1752105600&v=beta&t=Cv1EmMgmqjft1L5gzDy2g0WdHKe0ACEtWcW5qi7J68M"
-                alt="Description"
-                style="max-width: 200px; height: auto; border-radius: 8px"
-              />
-              <div style="display: flex; flex-direction: column">
-                <h6>Lyhyesti</h6>
-                <p>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
-          </div>
-          <div style="display: flex; flex-direction: row; justify-content: center">
+        <div id="main_header">
+          <div id="services">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Italian_farrier_2006_1.jpg/500px-Italian_farrier_2006_1.jpg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTrbY_XIF3iY7lPW9e6dttgImUkyB7hSlwqWcSuPdERQXn_lUR3ky6PSj3zXGgssTjtOtVq_RebSXpb5Ec1wvjCTziLsXUy1Qz4fLELQJN1SqoLZL8V-M1AX_Yp4hAMhBPFbnXlZ_2ri8/s1600/vlcsnap-2019-03-24-18h44m28s714.png"
               alt="Description"
-              style="max-width: 200px; height: auto; border-radius: 8px"
             />
-            </div>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
           </div>
+        </div>
+        <div>
+          <h2>Palvelut</h2>
+          <p class="main_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            consectetur molestiae esse totam libero qui corporis veniam,
+            laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
+            sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
+            harum voluptatem sint nemo neque culpa nostrum aspernatur vel
+            similique atque corrupti, sequi hic explicabo debitis, ullam
+            consequatur a ex dignissimos rerum. Culpa provident deleniti
+            mollitia ex exercitationem iure sed adipisci veritatis natus,
+            molestiae odit, eaque nulla at enim. Enim et omnis unde deserunt.
+            Consectetur nam maiores cum at deserunt ex est expedita. Odit
+            voluptatem possimus consequatur in porro vel dignissimos labore
+            asperiores magni laboriosam libero non, officiis odio quas
+            blanditiis aut officia soluta, illum reprehenderit commodi! Minima
+            saepe quo repellat quod repellendus dolores consectetur ab
+            repudiandae eveniet in voluptatum alias laudantium aperiam suscipit,
+            ipsum corporis maiores velit excepturi provident a eos nihil eaque
+            eius laborum! Dolorum libero vero blanditiis ea. Ad, temporibus
+            soluta. Ex eaque consectetur alias saepe? Dolorem esse mollitia
+            ullam. Magni omnis adipisci, sapiente asperiores nostrum magnam
+            dolore quibusdam?
+          </p>
+        </div>
+        <div id="prices" class="centered_img">
+          <img
+            src="https://blogs.helsinki.fi/hym-kuukauden-esine/files/2022/07/MV_kengitys-1024x1019.jpg"
+            alt="Description"
+          />
+        </div>
+        <div>
+          <h2>Hinnasto</h2>
+          <p class="main_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            consectetur molestiae esse totam libero qui corporis veniam,
+            laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
+            sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
+            harum voluptatem sint nemo neque culpa nostrum aspernatur vel
+            similique atque corrupti, sequi hic explicabo debitis, ullam
+            consequatur a ex dignissimos rerum. Culpa provident deleniti
+            mollitia ex exercitationem iure sed adipisci veritatis natus,
+            molestiae odit, eaque nulla at enim. Enim et omnis unde deserunt.
+            Consectetur nam maiores cum at deserunt ex est expedita. Odit
+            voluptatem possimus consequatur in porro vel dignissimos labore
+            asperiores magni laboriosam libero non, officiis odio quas
+            blanditiis aut officia soluta, illum reprehenderit commodi! Minima
+            saepe quo repellat quod repellendus dolores consectetur ab
+            repudiandae eveniet in voluptatum alias laudantium aperiam suscipit,
+            ipsum corporis maiores velit excepturi provident a eos nihil eaque
+            eius laborum! Dolorum libero vero blanditiis ea. Ad, temporibus
+            soluta. Ex eaque consectetur alias saepe? Dolorem esse mollitia
+            ullam. Magni omnis adipisci, sapiente asperiores nostrum magnam
+            dolore quibusdam?
+          </p>
+        </div>
       </div>
       <div id="third" class="hidden">
-        <h2>Yhteystiedot</h2>
-          <div
-            style="
-              margin-bottom: 25px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              gap: 20px;
-            "
-          >
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-              <img
-                src="https://media.licdn.com/dms/image/v2/D4D22AQGsXPoqgguagw/feedshare-shrink_800/feedshare-shrink_800/0/1719559003442?e=1752105600&v=beta&t=Cv1EmMgmqjft1L5gzDy2g0WdHKe0ACEtWcW5qi7J68M"
-                alt="Description"
-                style="max-width: 200px; height: auto; border-radius: 8px"
-              />
-              <div style="display: flex; flex-direction: column">
-                <h6>Lyhyesti</h6>
-                <p>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </br>
-                  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
+        <h2 class="centered_text">Yhteystiedot</h2>
+        <div id="main_header">
+          <div>
+            <img src="images/logo with transparent bg.png" alt="Description" />
           </div>
-          <div style="display: flex; flex-direction: row; justify-content: center">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Italian_farrier_2006_1.jpg/500px-Italian_farrier_2006_1.jpg"
-              alt="Description"
-              style="max-width: 200px; height: auto; border-radius: 8px"
-            />
-            </div>
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                align-items: flex-start;
-                gap: 20px;
-              "
-            >
-            <p style="margin: 0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              consectetur molestiae esse totam libero qui corporis veniam,
-              laboriosam enim odit nisi facere maxime earum a ipsum amet ipsam
-              sapiente ut. Dicta, blanditiis unde. Tenetur, dolor autem et quaerat
-              harum voluptatem sint nemo neque culpa nostrum aspernatur vel
-              similique atque corrupti, sequi hic explicabo debitis, ullam
-              consequatur a ex dignissimos rerum. Culpa provident deleniti mollitia
-              ex exercitationem iure sed adipisci veritatis natus, molestiae odit,
-              eaque nulla at enim. Enim et omnis unde deserunt. Consectetur nam
-              maiores cum at deserunt ex est expedita. Odit voluptatem possimus
-              consequatur in porro vel dignissimos labore asperiores magni
-              laboriosam libero non, officiis odio quas blanditiis aut officia
-              soluta, illum reprehenderit commodi! Minima saepe quo repellat quod
-              repellendus dolores consectetur ab repudiandae eveniet in voluptatum
-              alias laudantium aperiam suscipit, ipsum corporis maiores velit
-              excepturi provident a eos nihil eaque eius laborum! Dolorum libero
-              vero blanditiis ea. Ad, temporibus soluta. Ex eaque consectetur alias
-              saepe? Dolorem esse mollitia ullam. Magni omnis adipisci, sapiente
-              asperiores nostrum magnam dolore quibusdam?
-            </p>
+          <div class="contact_text">
+            <h4>Katri Palo-oja-Mertanen</h4>
+            <p>040 503 3796</p>
           </div>
+        </div>
       </div>
     </main>
 

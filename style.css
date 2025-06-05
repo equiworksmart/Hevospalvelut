@@ -70,3 +70,60 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.dropdown {
+  padding: 9px 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  margin-left: 0.5em;
+  text-align: left;
+}
+
+#main_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  height: 45vh;
+  width: auto;
+  margin: 15px 35px;
+  border-radius: 10px;
+}
+
+.centered_img {
+  display: flex;
+  justify-content: center;
+}
+
+.main_text {
+  margin: 20px;
+}
+
+.centered_text {
+  text-align: center;
+}
+
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
