@@ -87,6 +87,11 @@ nav li {
   padding: 9px 0;
 }
 
+.dropdown-menu {
+  box-shadow: rgb(143, 142, 143) 10px 5px 25px;
+  background-color: white;
+}
+
 h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
