@@ -22,6 +22,16 @@ header {
   color: white;
   padding: 20px 0;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#header_img {
+  max-height: 250px;
+  width: auto;
+  margin-right: 20px;
 }
 
 nav {
@@ -148,6 +158,11 @@ img {
   img {
     max-width: 97vw;
     height: auto;
+  }
+
+  #header_img {
+    max-height: 150px;
+    width: auto;
   }
 
   nav li {
