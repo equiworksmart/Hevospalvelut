@@ -137,8 +137,7 @@ img {
 
 #summary_text {
   margin-top: 20px;
-  line-height: 90%;
-  font-size: 0.9em;
+  line-height: 110%;
 }
 
 .summary-box-link {
@@ -176,6 +175,10 @@ img {
   font-size: 1em;
 }
 
+#third {
+  margin-top: 50px;
+}
+
 @media screen and (orientation: portrait) and (max-width: 768px) {
   img {
     max-width: 97vw;
@@ -198,5 +201,10 @@ img {
   #main_header {
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  #summary_text {
+    line-height: 90%;
+    font-size: 0.9em;
   }
 }
