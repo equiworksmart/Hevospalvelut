@@ -131,6 +131,20 @@ img {
 
 #summary_text {
   margin-top: 20px;
+  line-height: 90%;
+  font-size: 0.9em;
+}
+
+.summary-box-link {
+  padding: 15px;
+  padding-bottom: 5px;
+  margin: 10px;
+  background-color: #f1ececb1;
+  box-shadow: rgb(223, 222, 223) 10px 5px 25px;
+}
+
+.summary-box-link > a {
+  text-decoration: none;
 }
 
 .centered_img {
