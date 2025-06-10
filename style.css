@@ -115,6 +115,12 @@ h2 {
   justify-content: center;
 }
 
+#main_header_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   height: 45vh;
   width: auto;
@@ -139,12 +145,14 @@ img {
   padding: 15px;
   padding-bottom: 5px;
   margin: 10px;
+  margin-bottom: 15px;
   background-color: #f1ececb1;
   box-shadow: rgb(223, 222, 223) 10px 5px 25px;
+  border-radius: 7px;
 }
 
-.summary-box-link > a {
-  text-decoration: none;
+.summary-box-link > p > a {
+  color: black;
 }
 
 .centered_img {
