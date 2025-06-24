@@ -200,6 +200,8 @@ img {
 
   nav ul {
     gap: 4px;
+    list-style: none;
+    color: white;
   }
 
   .btn {
