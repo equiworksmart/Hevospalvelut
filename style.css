@@ -123,6 +123,12 @@ i {
   justify-content: center;
 }
 
+.img_aligning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #main_header_img {
   display: flex;
   justify-content: center;
