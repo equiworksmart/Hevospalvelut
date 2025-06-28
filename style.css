@@ -233,6 +233,11 @@ img {
     align-items: center;
   }
 
+  .img_aligning {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   #summary_text {
     line-height: 90%;
     font-size: 0.9em;
