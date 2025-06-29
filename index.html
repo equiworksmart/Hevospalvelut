@@ -44,7 +44,10 @@
   </head>
   <body>
     <header>
-      <img id="header_img" src="images/Katri.png" alt="Image of Katri Palo-oja-Mertanen" />
+
+      <picture>
+        <source srcset="images/Katri.webp 1x" type="image/webp" />
+        <img id="header_img" src="images/Katri.png" alt="Image of Katri Palo-oja-Mertanen" /></picture>
       <div>
         <h1>EquiWorkSmart</h1>
         <h1>Hevospalvelut</h1>
@@ -147,15 +150,28 @@
     </nav>
 
     <main id="short">
-      <div id="first" class="me">
+
+      <div id="hero">
+        <h1>Laadukkaat hevospalvelut – kengitystä, koulutusta ja hyvinvointia hevosille Pirkanmaalla. Ota yhteyttä ja kysy lisää!</h1>
+        <a
+            class="mobile"
+            href="tel:+358405033796"
+            target="_blank"
+          ><i class="fas fa-mobile-alt fa-beat"></i>040 503 3796</a>
+      </div>
+
+      <div id="first" class="me hidden">
         <div id="main_header">
-          <div id="main_header_img">
-            <img
-              id="summary_img"
-              src="images/Selma ja Katri.jpg"
-              alt="Image of Katri Palo-oja-Mertanen and her horse Selma relaxing together"
-            />
-          </div>
+          <picture id="summary_img">
+              <source
+                srcset="images/Selma ja Katri.webp"
+                type="image/webp"
+              />
+              <img
+                src="images/Selma ja Katri.jpg"
+                alt="Image of Katri Palo-oja-Mertanen and her horse Selma relaxing together"
+              />
+          </picture>
           <div id="summary_text">
             <h3>Koulutus</h3>
             <p>
@@ -267,7 +283,10 @@
           </p>
         </div>
         <div id="second_topic" class="centered_img">
-          <img src="images/Maastossa2.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
+          <picture>
+            <source srcset="images/Maastossa2.webp 1x" type="image/webp" />
+            <img src="images/Maastossa2.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
+          </picture>
         </div>
         <div>
           <h3>Unelmista totta</h3>
@@ -335,7 +354,10 @@
           </p>
         </div>
         <div id="third_topic" class="centered_img">
-          <img src="images/Lassi ja Selma.jpg" alt="Image of two horses - Lassi and Selma - in their staple" />
+          <picture>
+            <source srcset="images/Lassi ja Selma.webp 1x" type="image/webp" />
+            <img src="images/Lassi ja Selma.jpg" alt="Image of two horses - Lassi and Selma - in their staple" />
+          </picture>
         </div>
         <div>
           <h3>Hevosen omistajan vastuu</h3>
@@ -393,10 +415,16 @@
       <div id="second" class="hidden">
         <div class="img_aligning">
           <div id="services">
-            <img src="images/Katri kengittää.jpg" alt="Katri Palo-oja-Mertanen is shoeing a horse" />
+            <picture>
+              <source srcset="images/Katri kengittää.webp 1x" type="image/webp" />
+              <img src="images/Katri kengittää.jpg" alt="Katri Palo-oja-Mertanen is shoeing a horse" />
+            </picture>
           </div>
           <div>
-            <img src="images/Viimeistely.jpg" alt="Katri Palo-oja-Mertanen is finalizing the horse shoeing" />
+            <picture>
+              <source srcset="images/Viimeistely.webp 1x" type="image/webp" />
+              <img src="images/Viimeistely.jpg" alt="Katri Palo-oja-Mertanen is finalizing the horse shoeing" />
+            </picture>
           </div>
         </div>
         <div>
@@ -479,10 +507,16 @@
           </ul>
           <div class="img_aligning">
             <div>
-              <img src="images/Katri ja koira.jpg" alt="Image of Katri Palo-oja-Mertanen and a dog" />
+              <picture>
+                <source srcset="images/Katri ja koira.webp 1x" type="image/webp" />
+                <img src="images/Katri ja koira.jpg" alt="Image of Katri Palo-oja-Mertanen and a dog" />
+              </picture>
             </div>
-            <div id="loading">
-              <img src="images/Lastaus2.jpg" alt="Image of Katri Palo-oja-Mertanen loading a horse into a trailer" />
+            <div>
+              <picture>
+                <source srcset="images/Lastaus2.webp 1x" type="image/webp" />
+                <img id="loading" src="images/Lastaus2.jpg" alt="Image of Katri Palo-oja-Mertanen loading a horse into a trailer" />
+              </picture>
             </div>
           </div>
           <h3>Lastauskoulutus</h3>
@@ -536,13 +570,19 @@
           </p>
         </div>
         <div id="prices" class="centered_img">
-          <img src="images/Maastossa1.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
+          <picture>
+            <source srcset="images/Maastossa1.webp 1x" type="image/webp" />
+            <img src="images/Maastossa1.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
+          </picture>
         </div>
       </div>
       <div id="third" class="hidden">
-        <div id="main_header">
+        <div>
           <div id="prices" class="centered_img">
-            <img src="images/Kengitys.jpg" alt="Image of Katri Palo-oja-Mertanen shoeing a horse" />
+            <picture>
+              <source srcset="images/Kengitys.webp 1x" type="image/webp" />
+              <img src="images/Kengitys.jpg" alt="Image of Katri Palo-oja-Mertanen shoeing a horse" />
+            </picture>
           </div>
         </div>  
         <div>
@@ -567,7 +607,6 @@
               <li>Irtokenkä uudella kengällä 35 euroa (alv 0%)</li>
             </ul>
           </p>
-          <div class="centered_img"><img src="images/Lastaus1.jpg" alt="Image of Katri Palo-oja-Mertanen loading a horse into a trailer" /></div>
           <h3>Koulutuspalvelut</h3>
           <p class="main_text">
             <ul>
@@ -580,13 +619,22 @@
           <p class="main_text">
             Matkakulut 0,59 e/km lisätään hintoihin yli 30 km päähän tullessa Lempäälän keskustasta.
           </p>
+          <div class="centered_img">
+            <picture>
+              <source srcset="images/Lastaus1.webp 1x" type="image/webp" />
+              <img src="images/Lastaus1.jpg" alt="Image of Katri Palo-oja-Mertanen loading a horse into a trailer" />
+            </picture>
+          </div>
         </div>
       </div>
       <div id="fourth" class="hidden">
         <h2 class="centered_text">Yhteystiedot</h2>
-        <div id="main_header">
+        <div>
           <div id="contact_anchor">
-            <img src="images/logo with transparent bg.png" alt="Image of EquiWorkSmart logo" />
+            <picture class="centered_img">
+              <source srcset="images/logo with transparent bg.webp 1x" type="image/webp" />
+              <img src="images/logo with transparent bg.png" alt="Image of EquiWorkSmart logo" />
+            </picture>
           </div>
           <div class="contact_text">
             <h4>Katri Palo-oja-Mertanen</h4>

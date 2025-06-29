@@ -1,8 +1,10 @@
 function hideAll() {
+    const hero = document.getElementById("hero");
     const me = document.getElementById("first");
     const services = document.getElementById("second");
     const priceList = document.getElementById("third");
     const contact = document.getElementById("fourth");
+    hero.style.display = "none";
     me.classList.add("hidden");
     services.classList.add("hidden");
     priceList.classList.add("hidden");
