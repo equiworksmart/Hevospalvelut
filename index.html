@@ -134,7 +134,7 @@
         </li>
         <li>
           <div class="dropdown">
-            <a class="btn btn-secondary" onclick="showPriceList()" href="#third" role="button">
+            <a class="btn btn-secondary" onclick="showPriceList()" href="#prices" role="button">
               Hinnasto
             </a>
           </div>
@@ -207,10 +207,10 @@
                 >
               </p>
             </div>
-            <p id="first_topic">- Yrittäjän ammattitutkinto v. 2013</p>
+            <p>- Yrittäjän ammattitutkinto v. 2013</p>
           </div>
         </div>
-        <div>
+        <div id="first_topic">
           <h3>Hevoshistoria</h3>
           <p class="main_text">
             Olen aloittanut ratsastustunnit legendaarisella Ollin tallilla
@@ -282,13 +282,13 @@
             asian kouluttaminen yhteistyökykyiselle hevoselle.
           </p>
         </div>
-        <div id="second_topic" class="centered_img">
+        <div class="centered_img">
           <picture>
             <source srcset="images/Maastossa2.webp 1x" type="image/webp" />
             <img src="images/Maastossa2.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
           </picture>
         </div>
-        <div>
+        <div id="second_topic">
           <h3>Unelmista totta</h3>
           <p class="main_text">
             Pitkäaikainen haaveeni omasta hevosesta toteutui keväällä 2020, kun
@@ -353,13 +353,13 @@
             käsittelevien ihmisten välillä.
           </p>
         </div>
-        <div id="third_topic" class="centered_img">
+        <div class="centered_img">
           <picture>
             <source srcset="images/Lassi ja Selma.webp 1x" type="image/webp" />
             <img src="images/Lassi ja Selma.jpg" alt="Image of two horses - Lassi and Selma - in their staple" />
           </picture>
         </div>
-        <div>
+        <div id="third_topic">
           <h3>Hevosen omistajan vastuu</h3>
           <p class="main_text">
             Hevosen ja ihmisen turvallinen yhteistyö muodostuu minun kokemukseni
@@ -414,7 +414,7 @@
       </div>
       <div id="second" class="hidden">
         <div class="img_aligning">
-          <div id="services">
+          <div>
             <picture>
               <source srcset="images/Katri kengittää.webp 1x" type="image/webp" />
               <img src="images/Katri kengittää.jpg" alt="Katri Palo-oja-Mertanen is shoeing a horse" />
@@ -427,7 +427,7 @@
             </picture>
           </div>
         </div>
-        <div>
+        <div id="services">
           <h3>Kengitys ja vuolu</h3>
           <p class="main_text">
             Valmistun Salpauksen koulutuskeskuksen kengittäjän
@@ -454,7 +454,7 @@
             hevoselle ensimmäisellä kerralla aikaa tutustua minuun ja
             työtapoihini.
           </p>
-          <p id="important" class="main_text">
+          <p class="main_text">
             Olethan avoin hevosen käytöksestä, terveydentilasta sekä
             mahdollisista aiemmista käytöshaasteista, jotta kengitys- ja
             vuolutilanteet ovat turvallisia hevoselle ja kengittäjälle. Arvioin
@@ -466,7 +466,7 @@
             ennen työsuorituksen alkamisesta, jotta kengittäminen tai vuolu
             sujuu ongelmitta hevoselle ja kengittäjälle.
           </p>
-          <h3>Huomioitavaa</h3>
+          <h3 id="important">Huomioitavaa</h3>
           <ul>
             <li>
               Varmistathan, että hevosesi on valmiina kengitykseen sovittuna
@@ -569,7 +569,7 @@
             kaikki muut suunnat ovat vapaina paitsi ihmisen syli. 
           </p>
         </div>
-        <div id="prices" class="centered_img">
+        <div class="centered_img">
           <picture>
             <source srcset="images/Maastossa1.webp 1x" type="image/webp" />
             <img src="images/Maastossa1.jpg" alt="Image of Katri Palo-oja-Mertanen riding with her horse Selma" />
@@ -578,7 +578,7 @@
       </div>
       <div id="third" class="hidden">
         <div>
-          <div id="prices" class="centered_img">
+          <div class="centered_img">
             <picture>
               <source srcset="images/Kengitys.webp 1x" type="image/webp" />
               <img src="images/Kengitys.jpg" alt="Image of Katri Palo-oja-Mertanen shoeing a horse" />
@@ -586,7 +586,7 @@
           </div>
         </div>  
         <div>
-          <h2>Hinnasto</h2>  
+          <h2 id="prices">Hinnasto</h2>  
           <h3>Kengitys- ja vuolupalvelut</h3>
           <p class="main_text"><strong>Opiskelijahinnoin vielä elokuun 2025 loppuun:</strong>
             <ul>
