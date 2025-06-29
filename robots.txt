@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://equiworksmart.github.io/Hevospalvelut/sitemap.xml
